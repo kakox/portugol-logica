@@ -12,6 +12,7 @@ Este repositório contém a resolução de 50 exercícios de lógica de programa
 - [x] **Exercício 002** – Calcula a área de um retângulo com base e altura fornecidas.
 - [x] **Exercício 003** – Converte anos e meses em dias e soma o total de dias vividos.
 - [x] **Exercício 004** – Calcula o percentual de votos brancos, nulos e válidos em relação ao total de eleitores.
+- [x] **Exercício 005** – Calcula o novo salário com base no reajuste percentual informado.
 
 ## ✍️ Feito por
 
