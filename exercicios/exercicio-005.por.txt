@@ -1,0 +1,21 @@
+// Este programa lê o salário atual de um funcionário e o percentual de reajuste,
+// calcula o valor do aumento e exibe o novo salário com base nesse reajuste.
+
+programa {
+  funcao inicio() {
+    real salAtual, reajuste, aumento, novoSal
+
+    escreva("Digite o salario atual: ")
+    leia(salAtual)
+
+    escreva("Digite o percentual de reajuste: ")
+    leia(reajuste)
+
+    aumento = (reajuste*salAtual) / 100
+    novoSal = salAtual + aumento
+
+    escreva("O salário era de " + salAtual + " Reais, sofreu um reajuste de " + reajuste + "% ")
+    escreva("e agora o novo salário é de " + novoSal + " Reais.")
+  }
+   
+}

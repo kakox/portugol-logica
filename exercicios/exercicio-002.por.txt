@@ -1,0 +1,20 @@
+// calcula a dimensão de um retângulo
+
+programa {
+  funcao inicio() {
+    inteiro base, altura, res
+
+
+    escreva("escreva a base:")
+    leia(base)
+
+    escreva("escreva a altura")
+    leia(altura)
+
+    res = base * altura
+
+    escreva("a base é "+ base + " , sua altura é " +altura+ " e o calculo de sua area é: " +res)
+
+
+  }
+}

@@ -1,0 +1,21 @@
+// transforma anos e meses em dias e soma o total de dias de uma pessoa na terra
+
+programa {
+  funcao inicio() {
+      inteiro anos, meses, dias, res
+
+      escreva("Quantos anos voce tem?")
+      leia(anos)
+
+      escreva("Quantos meses de idade você tem?")
+      leia(meses)
+
+      escreva("Quantos dias de idade você tem?")
+      leia(dias)
+
+      res = (anos*365) + (meses * 30) + dias
+
+      escreva("Você está na terra a " +res+ " dias.")
+
+  }
+}

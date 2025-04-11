@@ -1,0 +1,31 @@
+// Este programa lê o número total de eleitores e a quantidade de votos em branco, nulos e válidos,
+// depois calcula e exibe o percentual que cada tipo de voto representa em relação ao total.
+
+
+programa {
+  funcao inicio() {
+      inteiro eleitores, branco, nulo, validos, res
+      real percBranco, percNulo, percValidos
+
+      escreva("Digite o total de eleitores:")
+      leia(eleitores)
+
+      escreva("Digite o numero de votos em branco:")
+      leia(branco)
+
+      escreva("Digite o numero de votos nulo:")
+      leia(nulo)
+
+      escreva("Digite o numero de votos validos:")
+      leia(validos)
+
+      percBranco = (branco* 100.0) / eleitores
+      percNulo = (nulo* 100.0) / eleitores
+      percValidos = (validos * 100.0) / eleitores
+
+      escreva("\nPercentual de votos em branco: " +percBranco+ "%")
+      escreva("\nPercentual de votos nulos: " +percNulo+ "%")
+      escreva("\nPercentual de votos válidos: " +percValidos+ "%")
+
+  }
+}

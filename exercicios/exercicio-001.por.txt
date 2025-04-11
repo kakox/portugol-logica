@@ -1,0 +1,14 @@
+// verifica o numero digita e seu antecessor
+
+programa {
+  funcao inicio() {
+    inteiro numero, res
+
+    escreva("informe um numero:")
+    leia(numero)
+
+    res = numero - 1
+
+    escreva("o numero digitado foi " + numero + " e seu antecessor é:" +res)
+  }
+}
