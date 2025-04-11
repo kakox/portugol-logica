@@ -1,0 +1,22 @@
+// programa que le duas notas e verifica se o aluno foi aprovado ou reprovado
+
+programa {
+  funcao inicio() {
+      real nota1, nota2, media
+
+      escreva("Digite a 1° nota: ")
+      leia(nota1)
+
+      escreva("Digite a 2° nota: ")
+      leia(nota2)
+
+      media = (nota1 + nota2) / 2
+
+      se (media >= 7.0){
+        escreva("O aluno foi aprovado com a nota final "+media)
+      }senao{
+        escreva("O aluno foi reprovado com a nota final "+media)
+      }
+
+  }
+}

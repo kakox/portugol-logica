@@ -1,0 +1,23 @@
+// programa que le o numero de carros vendidos, valor total de vendas, valor recebido por cada carro e calcula o salario
+
+programa {
+  funcao inicio() {
+    real salarioFixo, comissaoPorCarro, totalVendas, qtdCarros, resultado
+
+    escreva("Qual o valor do salário fixo: ")
+    leia(salarioFixo)
+
+    escreva("Quantos carros foram vendidos: ")
+    leia(qtdCarros)
+
+    escreva("Comissao por carro: ")
+    leia(comissaoPorCarro)
+
+    escreva("Total de vendas: ")
+    leia(totalVendas)
+
+    resultado = salarioFixo + (qtdCarros * comissaoPorCarro) + (totalVendas * 5/ 100)
+
+    escreva("Salario total: " +resultado+ " Reais")
+  }
+}

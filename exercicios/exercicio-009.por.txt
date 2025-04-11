@@ -1,0 +1,17 @@
+// verifica se o valor é positivo ou negativo
+
+programa {
+  funcao inicio() {
+    real valor
+
+    escreva("Digite um valor:")
+    leia(valor)
+
+    se (valor < 0){
+      escreva("O valor digitado é negativo.")
+    }
+    senao{
+      escreva("O valor digitado é positivo.")
+    }
+  }
+}

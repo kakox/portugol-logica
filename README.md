@@ -13,6 +13,14 @@ Este repositório contém a resolução de 50 exercícios de lógica de programa
 - [x] **Exercício 003** – Converte anos e meses em dias e soma o total de dias vividos.
 - [x] **Exercício 004** – Calcula o percentual de votos brancos, nulos e válidos em relação ao total de eleitores.
 - [x] **Exercício 005** – Calcula o novo salário com base no reajuste percentual informado.
+- [x] **Exercício 006** – Calcula o numero de carros vendidos, valor total de vendas e valor recebido.
+- [x] **Exercício 007** – Calcula 3 notas de um aluno e a média ponderada.
+- [x] **Exercício 008** – Verifica se o valor informado é maior ou menor que 10.
+- [x] **Exercício 009** – Verifica se o valor é positivo ou negativo.
+- [x] **Exercício 010** – Verifica dois valores e identifica o maior ou se são iguais.
+- [x] **Exercício 011** – Calcula 2 notas e verifica se o aluno foi aprovado ou reprovado.
+
+
 
 ## ✍️ Feito por
 

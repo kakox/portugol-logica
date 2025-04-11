@@ -1,0 +1,25 @@
+// programa que le dois valores e identifica se são iguais ou qual é o maior
+
+ programa {
+  funcao inicio() {
+    real valor1, valor2
+
+    escreva("Digite o primeiro valor: ")
+    leia(valor1)
+
+    escreva("Digite o segundo valor: ")
+    leia(valor2)
+
+    se(valor1 == valor2){
+      escreva("Os dois valores são iguais.")
+    }
+    senao{
+      se(valor1 > valor2){
+        escreva("O maior valor é : " + valor1)
+      }
+      senao{
+        escreva("O maior valor é: " + valor2)
+      }
+    }
+  }
+}
