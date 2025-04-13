@@ -19,6 +19,8 @@ Este repositório contém a resolução de 50 exercícios de lógica de programa
 - [x] **Exercício 009** – Verifica se o valor é positivo ou negativo.
 - [x] **Exercício 010** – Verifica dois valores e identifica o maior ou se são iguais.
 - [x] **Exercício 011** – Calcula 2 notas e verifica se o aluno foi aprovado ou reprovado.
+- [x] **Exercício 012** – Programa que calcula o saldo e verifica se o valor está positivo ou negativo.
+
 
 
 

@@ -1,0 +1,32 @@
+// Programa que calcula o saldo
+programa {
+  funcao inicio() {
+    real numConta, saldoAtual, despesa, entrada
+
+    escreva("Digite o número da conta: ")
+    leia(numConta)
+
+    escreva("Digite seu saldo: ")
+    leia(saldoAtual)
+
+    escreva("Digite a despesa: ")
+    leia(despesa)
+
+    escreva("Digite a entrada: ")
+    leia(entrada)
+
+    // Calcula o saldo atual
+    saldoAtual += entrada - despesa
+
+    // Exibe informações
+    escreva("\nConta nº: ", numConta, "\n")
+    escreva("Saldo atual: ", saldoAtual, "\n")
+
+    // Verifica se o saldo é positivo ou negativo
+    se (saldoAtual >= 0) {
+      escreva("Saldo positivo após as transações!\n")
+    } senao {
+      escreva("Saldo negativo após as transações!\n")
+    }
+  }
+}
