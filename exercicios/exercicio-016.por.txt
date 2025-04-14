@@ -1,0 +1,25 @@
+//Programa que verifica se é possivel formar um triângulo.
+programa {
+  funcao inicio() {
+    inteiro a, b, c
+
+    //Entrada de dados
+    escreva("Digite o valor de A: ")
+    leia(a)
+
+    escreva("Digite o valor de B: ")
+    leia(b)
+
+    escreva("Digite o valor de C: ")
+    leia(c)
+    
+    //Faz a verificação se é possivel formar um triângulo.
+    se (a < b+c e b < a+c e c < a+b){
+
+    escreva("Os valores podem formar um triângulo.")
+    } senao {
+      escreva("Os valores não podem formar um triângulo.")
+    }
+   
+  }
+}

@@ -1,0 +1,26 @@
+// Programa que faz a leitura de 3 numeros e identifica o maior entre eles
+
+programa {
+  funcao inicio() {
+    real num1, num2, num3
+
+    // entrada de valores
+    escreva("Digite o 1° valor: ")
+    leia(num1)
+
+    escreva("Digite o 2° valor: ")
+    leia(num2)
+
+    escreva("Digite o 3° valor: ")
+    leia(num3)
+
+    // condição para verificar o maior valor
+    se (num1 > num2 e num1 > num3){
+      escreva("O 1° valor é o maior valor.")
+    }senao se (num2 > num1 e num2 > num3){
+      escreva("O 2° valor é o maior valor.")
+    } senao {
+      escreva("O 3° valor é o maior valor.")
+    }
+  }
+}

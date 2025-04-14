@@ -1,0 +1,25 @@
+// Programa que faz a leitura de um estoque, quantidade min, max e atual.
+
+programa {
+  funcao inicio() {
+    inteiro qtdMax, qtdMin, atual
+    real media
+
+    escreva("Digite a quantidade minima do estoque: ")
+    leia(qtdMin)
+
+    escreva("Digite a quantidade maxima do estoque: ")
+    leia(qtdMax)
+
+    escreva("Digite a quantidade atual do estoque: ")
+    leia(atual)
+
+    media = (qtdMax + qtdMin) / 2
+
+    se (atual >= qtdMax){
+      escreva("Nao efetuar a compra.")
+    } senao {
+      escreva("Efetue a compra.")
+    }
+  }
+}

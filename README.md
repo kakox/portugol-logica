@@ -20,6 +20,12 @@ Este repositório contém a resolução de 50 exercícios de lógica de programa
 - [x] **Exercício 010** – Verifica dois valores e identifica o maior ou se são iguais.
 - [x] **Exercício 011** – Calcula 2 notas e verifica se o aluno foi aprovado ou reprovado.
 - [x] **Exercício 012** – Programa que calcula o saldo e verifica se o valor está positivo ou negativo.
+- [x] **Exercício 013** – Programa que faz a leitura de um estoque, quantidade min, max e atual.
+- [x] **Exercício 014** – Programa que faz a leitura de 3 numeros e identifica o maior entre eles.
+- [x] **Exercício 015** – Programa que faz a verificação de tres numeros e coloca em ordem crescente.
+- [x] **Exercício 016** – Programa que verifica se é possivel formar um triângulo.
+
+
 
 
 
