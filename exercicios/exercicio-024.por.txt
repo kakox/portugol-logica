@@ -1,0 +1,12 @@
+// Programa que escreve os numeros de 1 a 10 em ordem crescente utilizando enquanto
+programa {
+  funcao inicio() {
+    inteiro i
+    i = 1
+    enquanto(i <=10){
+      escreva(i)
+      escreva("\n")
+      i++
+    }
+  }
+}

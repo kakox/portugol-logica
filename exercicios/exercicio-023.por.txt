@@ -1,0 +1,15 @@
+// Programa que escreve os numeros de 1 a 10 em ordem crescente utilizando repita/faca
+programa {
+  funcao inicio() {
+    inteiro i
+    i = 1
+
+    faca {
+    escreva(i)
+    escreva("\n")
+    i++
+    
+    }enquanto (i <= 10)
+
+  }
+}

@@ -1,0 +1,25 @@
+// Programa que faz a leitura de dois valores
+// Se o 2° valor for 0, pede outro valor e faz a divisao entre os dois valores 
+programa {
+  funcao inicio() {
+    real valor1, valor2, res
+
+    // entrada de valores
+    escreva("Digite um valor: ")
+    leia(valor1)
+    escreva("Digite o segundo valor (não pode ser zero): ")
+    leia(valor2)
+
+    //verificação se o valor 2 é igual a 0
+    enquanto (valor2 == 0){
+      escreva("Valor inválido. Digite novamente: ")
+      leia(valor2)
+
+    }
+    
+    // resultado
+    res = valor1 / valor2
+
+    escreva("O resultado dos dois valores divididos são: "+res)
+  }
+}

@@ -1,0 +1,22 @@
+// Programa que le um valor verifica que nao seja 0 e imprimi todos os valores de 1 até o valor recebido
+programa {
+  funcao inicio() {
+      inteiro x, contador
+      // entrada do valor
+      escreva("Digite o valor de x (que seja maior que 0): ")
+      leia (x)
+
+      // verifica se o numero é igual a 0
+      enquanto(x == 0){
+        escreva("Número inválido\nDigite novamente: ")
+        leia(x)
+      }
+
+      // escreve do 1 ao valor recebido
+      para (contador = 1; contador <= x; contador++){
+      escreva(contador)
+      escreva("\n")
+
+      }
+  }
+}

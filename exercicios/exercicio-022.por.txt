@@ -1,0 +1,15 @@
+// Programa que calcula e imprime a tabuada do 8
+
+programa {
+  funcao inicio() {
+      inteiro i, res
+
+      para(i = 0; i <= 10; i ++){
+      res = 8*i
+      escreva("8 x "+i+ " = " + res + "\n")
+        
+      }
+
+      
+  }
+}

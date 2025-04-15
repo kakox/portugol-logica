@@ -1,0 +1,13 @@
+// Programa que escreve números de 10 a 1 em ordem decrescente
+
+programa {
+  funcao inicio() {
+    inteiro contador
+
+    para (contador = 10 ; contador >=1 ; contador--){
+      escreva(contador) // Imprime o número
+      escreva("\n")  // Imprime a quebra de linha
+
+    }
+  }
+}

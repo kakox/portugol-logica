@@ -1,0 +1,27 @@
+// Programa que le 10 valores e contabiliza os negativos.
+programa {
+  funcao inicio() {
+    // Declarando variáveis
+    inteiro i, valor, negativos
+    
+    i = 1
+    negativos = 0
+
+    // Laço para repetir a leitura de 10 valores
+    enquanto (i <= 10) {
+      escreva("Digite o valor " + i + ": ")
+      leia(valor)
+
+    // Verifica se o valor digitado é negativo
+      se (valor < 0) {
+        negativos = negativos + 1
+      }
+
+    // incrementa o contador do laço
+      i = i + 1
+    }
+
+    // Após o laço, exibe quantos valores negativos foram digitado
+    escreva("Foram lidos " + negativos + " valores negativos.")
+  }
+}

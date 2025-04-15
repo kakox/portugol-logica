@@ -1,0 +1,23 @@
+// Programa que faz a leitura de dois valores usando o faca enquanto
+// Se o 2° valor for 0, pede outro valor e faz a divisao entre os dois valores 
+programa {
+  funcao inicio() {
+      real valor1, valor2, res
+
+    // entrada do valor 1
+      escreva("Digite um valor: ")
+      leia(valor1)
+
+    // entrada do 2° valor dentro do laço e verificação do valor2
+      faca{
+      escreva("Digite o segundo valor (não pode ser zero): ")
+      leia(valor2)
+      } enquanto(valor2 == 0 )
+
+    // resultado
+      res = valor1/valor2
+      
+    escreva("O resultado dos dois valores divididos são: "+res)
+
+  }
+}
